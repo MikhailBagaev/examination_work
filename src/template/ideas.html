@@ -1,0 +1,33 @@
+<div class="wrapper--wider">
+	<section class="ideas">
+        <h2 class="ideas__header">
+            Discover holiday activity ideas
+        </h2>
+        <script id="parsed-resig" type="text/template">          
+            <div class="clear-area grid">
+            	<% for (var i = 0; i < data.hits.length; i++) { if (i == 4 || i == 5){ %>
+                <figure class="grid-item grid-item--width2">
+                    <a href="#" class="grid-link">
+                     <img src="<%= data.hits[i].webformatURL %>">
+                    <figcaption>
+                        <p><%= data.hits[i].tags %>
+                        </p>                 
+                    </figcaption>
+                    </a>
+                </figure> 
+                <% } else { %> 
+                <figure class="grid-item grid-item--width">
+                    <a href="#" class="grid-link">
+                     <img src="<%= data.hits[i].webformatURL %>">             
+                    <figcaption>
+                        <p><%= data.hits[i].tags %>
+                        </p>                 
+                    </figcaption>
+                    </a>
+                </figure>           
+                <% };
+                } %>
+            </div>
+        </script>	        		
+    </section> 		
+</div>

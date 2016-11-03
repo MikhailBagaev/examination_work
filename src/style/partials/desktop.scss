@@ -1,0 +1,219 @@
+@media only screen and (min-width: 941px) and (max-width: 1920px) {
+
+/*---------HEADER---------*/
+
+.wrapper {
+    width: 100%;
+    max-width: 1920px;
+}
+.header {     
+	background-image: url('../img/header-bg.jpg');
+    background-size: cover;  
+    height: 700px;
+}
+.header__log-sign {
+	width: 175px;
+	float: right;
+	margin: -10px 11.95% 0 0;
+}
+.header__logo {    
+	margin: 28px 0 0 -34.67%;	
+}
+.header__slogan {
+	margin-top: 154px;
+	font-size: 52px;
+	span:first-child {
+            margin-bottom: 10px;
+        }
+}
+.header__proposition {    
+    font-size: 24px; 
+    margin: 30px 0 35px;       
+        span {
+            display: inline;
+        }        	
+}
+.header__button--top {
+	width: 226px;	
+	padding: 11px 0;
+}
+
+/*------SLIDERS------*/
+
+.how-works__header {	
+	margin: 97px 0 29px;
+} 
+.wrapper--wider {
+	width: 940px;
+    max-width: 940px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.bx-wrapper {	
+	width: 30.7%;
+	margin: 0.75% !important;
+	border-radius: 4px;			
+}
+.text-block {
+	text-align: left;
+}
+.bxslider__item {    
+    height: 400px;
+    margin-bottom: 7px;	    
+}
+.bxslider__bg {
+    height: 400px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+    background-color: #ff8523;    
+}
+.bxslider__bg1 {
+	background: url('../img/step1-img.jpg') center;
+}
+.bxslider__bg2 {
+	background: url('../img/step2-img.jpg') center;
+}
+.bxslider__bg3 {
+    background-color: #ff8523;
+	background: url('../img/step3-img.jpg') center;	
+}
+.text-block {	
+	top: 231px;
+	left: 20px;
+}
+.text-block--step2 {
+	top: 260px;
+}
+
+/*-------PARTNERS--------*/
+
+.partners {
+	position: relative;
+	height: 463px;
+}
+.partners__header {    	
+    margin: 86px 0 0 0;	
+        span {
+            display: inline;            
+        }        
+}
+.partners__item {
+	width: 25%;
+	margin: 0;
+	position: absolute;
+	top: 54px;
+}
+.partners__item--hunter { 	
+	left: -0.85%;
+}
+.partners__item--walker {
+	float: none;
+	left: 24.68%;		 
+}
+.partners__item--hunter-fem {
+	float: none;
+	left: 75.8%;
+}	
+.partners__item--marsha {
+    float: none;
+    left: 50.36%;	
+}
+.partners__item figcaption p {	
+	padding: 0 5px;	
+}
+.partners__item figcaption:before {    
+    left: 58.72%;
+}
+.header__button--partners {
+	width: 189px;
+	margin: 305px auto 50px;	
+}
+
+/*----------IDEAS-----------*/
+
+.ideas__header {
+    margin: 4px 0 35px;
+}
+.grid {
+	text-align: center;	
+}
+.grid-item {
+	height: 310px;
+	margin-bottom: 20px;
+	float: left;
+}
+.grid-item--width {
+    width: 31.91%;                 
+}
+.grid-item--width2 {
+    width: 65.95%;               
+}
+.grid-item img {
+	width: 100%;
+	height: 100%;
+}
+
+.grid-item figcaption {	
+	top: 46%;	
+}
+
+/*----------SEARCH---------*/
+
+.search__header {
+    margin: 78px 0 36px;
+}
+.searchForm {
+	width: 240px;
+	height: 40px;	
+	margin: 40px 6px 10px 0;
+	padding: 0 14px;
+	display: inline-block;	
+}
+.buttonSearch {	
+	width: 160px;
+	cursor: pointer;
+	display: inline-block;
+}
+.search__question {	
+    margin-top: -2px;
+}    
+
+/*--------FOOTER--------*/
+
+.footer  {
+    width: 100%;
+    max-width: 1920px;
+    margin: 90px auto 0;    	
+}
+.footer-menu__item {
+	display: block;	       
+}
+.footer__logo {
+	float: left;
+	margin: 38px 20px 10px 0;	
+}
+.menu-container {
+	float: left;
+	margin: 23px 10px 0 7.8%;	
+}
+.footer-menu {
+	text-align: left;
+	margin: 16px 0 20px 0;
+}
+.footer-menu__item {
+	padding: 0;
+	margin: 10px 0;
+}
+.footer__header--partners {
+	width: 150px;
+	float: left;
+	margin: 39px 10px 0 3.9%;
+}
+.designed {
+    text-align: right;
+	width: 115px;
+	float: right;
+	margin: 39px 0 0;
+}
+}
